@@ -8,9 +8,27 @@
     text-decoration: none;
     font-family: "Inter", sans-serif;
    }
+
+   header {
+    background-color: #d13636;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    padding: 30px 100px;
+   }
+
+   .nav-header, .nav-header ul {
+     display: flex;
+     gap: 20px;
+     list-style: none;
+   }
+
+   .lista-icone {
+     display: none;
+   }
    
    .div-card  {
-       border: 1px solid #992e2e;
+       border: 1px solid #c72020;
        width: 25%;
        padding: 10px;
        /* text-align: center; */  
@@ -73,7 +91,7 @@
    }
    
    .div-titulo {
-       display: flex;
+       display: flex; 
        justify-content: space-between;
    }
    
