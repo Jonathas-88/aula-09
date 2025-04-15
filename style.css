@@ -140,6 +140,21 @@
        font-size: 26px;
        font-weight: 600;
    }
+
+   footer{
+        background-color: aqua;
+        color: #a86565;
+        
+     }
+
+     .nav-footer a {
+        color: #c72020;
+     }
+
+     .nav-footer a:hover {
+        text-decoration: underline;
+     }
+
     /*(width<=998px) ou (max-width: 998px)tablet deitado*/
    @media screen and (width <=998px)  {
     header {
