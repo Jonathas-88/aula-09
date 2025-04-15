@@ -58,8 +58,23 @@
     position: sticky;
     top: 110px;
     height: fit-content;
+    background-color: #cca1a1;
+    padding: 60px;
+    list-style: none;
+    height: 100%;
    }
-   
+
+
+   .aside-filtro ul{
+    padding: 10px;
+    list-style: none;
+   }
+
+   .aside-filtro li{
+   padding: 10px;
+   list-style: none;
+   }
+
    .div-card  {
        border: 1px solid #c72020;
        width: 300px;
@@ -142,13 +157,29 @@
    }
 
    footer{
-        background-color: aqua;
-        color: #a86565;
+        background-color: rgb(194, 70, 51);
+        color: #eed1d1;
+        padding: 10px 100px;
+        display: block;
         
+     }
+     .nav-footer ul{
+        list-style: none;
+     }
+
+     .nav-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     }
+
+
+     .div-footer-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
      }
 
      .nav-footer a {
-        color: #c72020;
+        color: #f0eded;
      }
 
      .nav-footer a:hover {
@@ -179,4 +210,24 @@
     }
    }
 
-   
+   .frete, .pronta-entrega {
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+   }
+
+   hr{
+    border: 1px solid #fff;
+    width: 50%;
+    text-align: center;
+
+   }
+
+   .div-footer-text{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: rgb(213, 213, 231);
+    padding-top: 20px;
+    gap: 10px;
+   }
