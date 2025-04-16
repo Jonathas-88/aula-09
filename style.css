@@ -58,7 +58,7 @@
     position: sticky;
     top: 110px;
     height: fit-content;
-    background-color: #cca1a1;
+    background-color: #4574cb;
     padding: 60px;
     list-style: none;
     height: 100%;
@@ -66,13 +66,28 @@
 
 
    .aside-filtro ul{
-    padding: 10px;
+    padding: 5px;
     list-style: none;
+    
    }
 
    .aside-filtro li{
-   padding: 10px;
-   list-style: none;
+    padding: 3%;
+    list-style: none;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+   
+   }
+
+   .aside-filtro a{
+    color: #e6cfcf;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
    }
 
    .div-card  {
@@ -227,7 +242,7 @@
     align-items: center;
     flex-direction: column;
     display: flex;
-    color: rgb(213, 213, 231);
+    color: rgb(215, 215, 225);
     padding-top: 20px;
     gap: 10px;
    }
